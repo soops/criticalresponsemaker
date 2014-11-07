@@ -30,21 +30,21 @@ namespace Critical_Response_Note_Sheet
             switch(conveyChosenNumber)
             {
                 case 0:
-                    conveyChosen = " know ";
+                    conveyChosen = "know ";
                     break;
                 case 1:
-                    conveyChosen = " understand ";
+                    conveyChosen = "understand ";
                     break;
 
                 case 2:
-                    conveyChosen = " be able to ";
+                    conveyChosen = "be able to ";
                     break;
             }
             string[] alltextboxes = {
                                         name.Text +
                                         Environment.NewLine +
                                         "In the " + medium.Text + " entitled " + title.Text + ", "
-                                        + presenter.Text + conveyChosen + " " + mainMessage.Text + Environment.NewLine +
+                                        + presenter.Text + " wants us to " + conveyChosen + mainMessage.Text + Environment.NewLine +
                                         "(Add starting sentence here) " + getMainMessage1.Text + " (transition here) " + explain1.Text + Environment.NewLine +
                                         "(Add starting sentence here) " + getMainMessage2.Text + " (transition here) " + explain2.Text + Environment.NewLine +
                                         "(Add starting sentence here) " + getMainMessage3.Text + " (transition here) " + explain3.Text + Environment.NewLine +
