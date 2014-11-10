@@ -1,0 +1,12 @@
+.col1 {
+    float: left;
+    width: 285px;
+    height: 500px;
+}
+.col2 {
+    float: none;
+    width: 395px;
+    height: 500px;
+    overflow: hidden;
+    display: table-cell; /* turn this off to lock height at 65px */
+}
